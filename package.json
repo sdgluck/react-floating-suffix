@@ -1,0 +1,20 @@
+{
+  "name": "react-floating-suffix",
+  "version": "0.0.1",
+  "description": "Don't let that suffix outta sight!",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "prepublish": "npm run lint"
+  },
+  "dependencies": {
+    "react": "^15.3.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "tape": "^4.6.0"
+  }
+}
