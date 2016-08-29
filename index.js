@@ -56,11 +56,19 @@ var FloatingSuffix = React.createClass({
   },
 
   componentDidMount: function () {
+    var refs = this.refs
+
     if (this.shouldFloatSuffix()) {
-      var refs = this.refs
       var contentWidth = refs.container.offsetWidth - refs.suffix.offsetWidth
       refs.content.style.width = contentWidth + 'px'
-      Object.assign(this.refs.suffix.style, this.floatingSuffixStyle)
+      Object.assign(refs.suffix.style, this.floatingSuffixStyle)
+    } else {
+      refs.content.style.width = 'auto'
+      Object.assign(refs.suffix.style, {
+        position: 'relative',
+        top: '',
+        right: ''
+      })
     }
   },
 

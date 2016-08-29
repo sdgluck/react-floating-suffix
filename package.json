@@ -1,6 +1,6 @@
 {
   "name": "react-floating-suffix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Don't let that suffix outta sight!",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,5 @@
   },
   "standard": {
     "parser": "babel-eslint"
-  },
-  "devDependencies": {
-    "enzyme": "^2.4.1",
-    "tape": "^4.6.0"
   }
 }
