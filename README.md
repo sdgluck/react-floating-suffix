@@ -37,12 +37,12 @@ var FloatingSuffix = require('react-floating-suffix')
 
 ```js
 <FloatingSuffix
-  content="New Text Document"
+  content"New Text Document"
   suffix=".txt"
   
   // all optional
   style={{ backgroundColor: 'white', color: 'black' }}
-  width='100px'
+  width="100px"
   textOverflow="ellipsis"
 />
 ```
